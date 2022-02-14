@@ -1,4 +1,4 @@
-package wordle_cli
+package main
 
 import (
 	"fmt"

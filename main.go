@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"os"
-	"wordle-tool"
 )
 
 func main() {
@@ -12,7 +11,7 @@ func main() {
 		answers = append(answers, os.Args[i+1])
 	}
 
-	res := wordle_cli.SuggestWords(answers)
+	res := SuggestWords(answers)
 
 	fmt.Println("suggest:")
 	for i, v := range res {

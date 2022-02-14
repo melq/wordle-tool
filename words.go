@@ -1,4 +1,4 @@
-package wordle_cli
+package main
 
 func getWords() []string {
 	return []string{
