@@ -14,12 +14,11 @@ func main() {
 
 	res := wordle_cli.SuggestWords(answers)
 
-	fmt.Println("\nsuggest:")
+	fmt.Println("suggest:")
 	for i, v := range res {
 		fmt.Printf("%s ", v)
 		if i != 0 && i%4 == 0 {
 			fmt.Println()
 		}
 	}
-	fmt.Println()
 }
