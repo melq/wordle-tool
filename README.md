@@ -8,9 +8,7 @@
 
 例として、
 
-R A<span style="background:#C9B458; color:#000"> I </span> S E
-
-<span style="background:#6AAA64; color:#000"> C </span>OU<span style="background:#C9B458; color:#000"> N </span>T
+![img.png](img.png)
 
 のような回答の状況の場合は、
 `go run . ra?ise !cou?nt`
