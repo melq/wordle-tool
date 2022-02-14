@@ -13,11 +13,11 @@ R A<span style="background:#C9B458; color:#000"> I </span> S E
 <span style="background:#6AAA64; color:#000"> C </span>OU<span style="background:#C9B458; color:#000"> N </span>T
 
 のような回答の状況の場合は、
-`go run cmd/cli/main.go ra?ise !cou?nt`
+`go run . ra?ise !cou?nt`
 のように、色付きの文字の前に記号を挿入し引数として入力する。すると結果として以下のような出力が得られる。
 
 ```text
-> go run .\cmd\cli\main.go ra?ise !cou?nt
+> go run . ra?ise !cou?nt
 suggest:
 cynic cinch 
 ```
