@@ -1,6 +1,6 @@
 # Wordle-tool
 
-If you Use `wordle-tool` with your Wordle answers, it will list the words that can be Wordle answer.
+If you use `wordle-tool` with your Wordle answers, it will list the words that can be Wordle answer.
 
 ## Installation
 
