@@ -5,7 +5,7 @@ If you use `wordle-tool` with your Wordle answers, it will list the words that c
 ## Installation
 
 ```text
-go install github.com/melq/wordle-tool@latest
+> go install github.com/melq/wordle-tool@latest
 ```
 
 ## Usage
