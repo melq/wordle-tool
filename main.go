@@ -11,7 +11,7 @@ func main() {
 		answers = append(answers, os.Args[i+1])
 	}
 
-	res := SuggestWords(answers)
+	res := suggestWords(answers)
 
 	fmt.Println("suggest:")
 	for i, v := range res {

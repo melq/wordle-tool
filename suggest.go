@@ -19,7 +19,7 @@ candidate:
 	return true
 }
 
-func SuggestWords(answers []string) []string {
+func suggestWords(answers []string) []string {
 	bites := ""
 	notUsed := ""
 	rss := [5]string{}
