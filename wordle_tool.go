@@ -65,8 +65,7 @@ func SuggestWords(answers []string) []string {
 		rs += rss[i]
 	}
 
-	var words []string
-	LoadWords(&words)
+	words := getWords()
 
 	var res []string
 	reg, err = regexp.Compile(rs)

@@ -10,8 +10,8 @@ type Words struct {
 	W []string `json:"words"`
 }
 
-func LoadWords(wsp *[]string) {
-	b, err := os.ReadFile("words.json")
+func LoadWords(sp *[]string, fn string) {
+	b, err := os.ReadFile(fn)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -20,5 +20,5 @@ func LoadWords(wsp *[]string) {
 	if err = json.Unmarshal(b, &w); err != nil {
 		log.Fatal(err)
 	}
-	*wsp = w.W
+	*sp = w.W
 }
